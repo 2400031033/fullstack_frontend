@@ -19,7 +19,7 @@ function App() {
     pdf: null
   });
 
-  /* LOAD DATA */
+  /*  LOADING DATA  */
   useEffect(() => {
     fetch(API + "/books")
       .then(res => res.json())
