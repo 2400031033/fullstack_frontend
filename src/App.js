@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-const API = "fullstackbackend-production-1804.up.railway.app/api";
+const API = "https://fullstackbackend-production-1804.up.railway.app/api";
 
 function App() {
   const [page, setPage] = useState(1);
